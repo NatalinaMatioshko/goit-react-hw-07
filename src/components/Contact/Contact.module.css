@@ -1,0 +1,40 @@
+.box {
+  width: calc((100% - 45px) / 4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid rgba(50, 50, 50, 0.845);
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  fill: green;
+}
+
+.btn {
+  width: 80px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: green;
+}
