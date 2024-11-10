@@ -1,5 +1,5 @@
-.list {
+.listWrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 45px;
+  gap: 24px;
 }

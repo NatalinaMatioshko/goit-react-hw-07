@@ -1,4 +1,4 @@
-.box {
+.contactWrapper {
   width: calc((100% - 45px) / 4);
   display: flex;
   align-items: center;
@@ -6,23 +6,13 @@
   border: 2px solid rgba(50, 50, 50, 0.845);
   border-radius: 10px;
   padding: 15px 20px;
+  min-width: 400px;
 }
 
-.list {
+.wrapper {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  list-style: none;
-  padding: 0;
-}
-
-.item {
-  display: flex;
-  gap: 10px;
-}
-
-.icon {
-  fill: green;
+  gap: 12px;
+  align-items: center;
 }
 
 .btn {
@@ -32,9 +22,14 @@
   border: 1px solid grey;
   border-radius: 5px;
   cursor: pointer;
+  align-items: center;
   transition: background-color 0.3s ease-in-out;
 }
 
 .btn:hover {
   background-color: green;
+}
+
+.icon {
+  fill: green;
 }

@@ -1,13 +1,21 @@
-.box {
-  margin-bottom: 30px;
+.searchWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
 }
-
 .label {
-  margin-bottom: 5px;
+  font-size: 18px;
+}
+.searchBar {
+  width: 400px;
+  padding: 12px;
+  font-size: 18px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  outline: none;
 }
 
-.input {
-  width: 350px;
-  height: 35px;
-  padding: 0 10px;
+.searchBar:focus {
+  border-color: black;
 }
